@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>NeutralinoJs</title>
+    <title>NeutralinoJs Example</title>
     <link rel="stylesheet" href="/assets/app.css">
   </head>
   <body>
@@ -11,12 +11,16 @@
     </div>
     <div class="container">
       <div class="frame">
-        <a id="generate-secret" class="btn-signup">Generar secret</a>
-        <label id="secret" for="checkbox" ><span class="ui"></span>SECRET</label>
-       <!--  <form class="form-signin" action="" method="post" name="form">
-          <label for="username">Username</label>
-          <input class="form-styling" type="text" name="username" placeholder=""/>
-        </form> -->
+        <div style="text-align: center; margin-top: 35px;">
+          <label id="date"></label>
+          <a id="generate-secret">Generar secret</a>
+          <label id="secret"><span class="ui"></span>SECRET</label>
+          <label id="count"></label>
+          <div id="myProgress">
+            <div id="myBar"></div>
+          </div>
+          <label id="otp"></label>
+        </div>
       </div>
     </div>
     <script src="/neutralino.js"></script>
